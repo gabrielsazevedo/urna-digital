@@ -1,11 +1,14 @@
-function teclar(tecla) {
-    
-   
-   
+function mostrarImagem() {
+
+switch (numero) {
+    case 12:
+        return <img src="imagens/ivetesangalo.jpeg"></img>
+        break;
+
+    default:
+        break;
 }
 
-function atualizarVisor(numero) {
-    
-    document.campoVisor.values = numero;
+document.getElementById("foto").innerHTML = foto;
 
 }

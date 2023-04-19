@@ -8,12 +8,13 @@ body {
 );
 }
 
-.colunateclas {
+.gridcontainer-teclas {
 
+    position: relative;
     padding: 0.5em;
     background-color: white;
-    position: relative;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     left: 1000px;
     top: 300px;
     width: fit-content;
@@ -37,13 +38,12 @@ body {
 
 }
 
-.any {
+.empty {
 
     visibility: hidden;
     width: 90px;
     height: 50px;
-    font-size: larger;
-
+    
 }
 
 .teclacorrige {
