@@ -1,14 +1,15 @@
-function mostrarImagem() {
+function teclar(digito) {
 
-switch (numero) {
-    case 12:
-        return <img src="imagens/ivetesangalo.jpeg"></img>
-        break;
+    var num = digito;
+    
+    if (num.length == 2 ) {
 
-    default:
-        break;
-}
+        alert(num);
+        return;
 
-document.getElementById("foto").innerHTML = foto;
+    }
+
+    num += digito;
+
 
 }
