@@ -1,8 +1,15 @@
+let num = "";
+
+function atualizarTela() {
+
+    const tela = document.querySelector(".campovisor");
+    tela.textContent = num;
+
+}
+
 function teclar(digito) {
 
-    var num = digito;
-    
-    if (num.length == 2 ) {
+    if (num.length == 2) {
 
         alert(num);
         return;
@@ -10,6 +17,6 @@ function teclar(digito) {
     }
 
     num += digito;
-
+    atualizarTela();
 
 }

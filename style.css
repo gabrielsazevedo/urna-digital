@@ -4,8 +4,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(to right, azure , rgb(200, 200, 252)
-);
+    background-image: linear-gradient(to right, azure, rgb(200, 200, 252));
 }
 
 .gridcontainer-teclas {
@@ -35,7 +34,7 @@ body {
 
 .tecla:hover {
 
-   background-color: rgb(27, 27, 27);
+    background-color: rgb(27, 27, 27);
 
 }
 
@@ -44,7 +43,7 @@ body {
     visibility: hidden;
     width: 90px;
     height: 50px;
-    
+
 }
 
 .teclacorrige {
@@ -71,7 +70,7 @@ body {
     height: 50px;
     color: black;
     border-radius: 5px;
-    
+
 }
 
 .campovisor {
