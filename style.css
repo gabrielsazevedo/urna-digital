@@ -1,4 +1,4 @@
-obody {
+body {
 
     height: 100%;
     width: 100%;
@@ -30,7 +30,6 @@ obody {
     background-color: black;
     color: yellow;
     border-radius: 5px;
-    text-align: center;
 }
 
 .tecla:hover {
@@ -76,10 +75,10 @@ obody {
 
 .campovisor {
 
-    background-color: white;
+    background-color: whitesmoke;
     position: absolute;
-    left: 1008px;
-    top: 251px;
+    left: 1000px;
+    top: 244px;
     width: 285px;
     height: 55px;
     text-align: center;
