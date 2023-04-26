@@ -30,10 +30,13 @@ function corrigir() {
 function confirmar() {
 
     const fotocandidato = document.getElementById("fotocandidato");
+    const stringscandidato = document.getElementById("stringscandidato");
+
 
     switch (num) {
         case "12":
             fotocandidato.src = "https://yt3.googleusercontent.com/0vptru8uklux9U_aDNrF1UgbsZ-Fq5kxauWGBLzBmNWZR4MNDThawCNRErYFg2V1A888N9ZnohU=s900-c-k-c0x00ffffff-no-rj"
+            stringscandidato.get = "12 - Ivete Sangalo, MPB";
             alert("Você votou em Ivete Sangalo!");
             break;
         case "21":
@@ -50,6 +53,7 @@ function confirmar() {
             break;
         default:
         fotocandidato.src = "";
+        stringscandidato = "";
             alert("Candidato não existente, tente novamente!");
     }
 
