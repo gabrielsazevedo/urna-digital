@@ -10,6 +10,12 @@
     <meta name="keywords" content="TED 200025706">
     <meta name="author" content="Gabriel da Silva Azevedoi">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap" rel="stylesheet">
     <script src="script.js"></script>
 </head>
 
@@ -25,23 +31,23 @@
 
     <!-- <form name="form1"> -->
 
-        <div class="gridcontainer-teclas">
-            <button class="tecla" onclick="teclar('1')">1</button>
-            <button class="tecla" onclick="teclar('2')">2</button>
-            <button class="tecla" onclick="teclar('3')">3</button>
-            <button class="tecla" onclick="teclar('4')">4</button>
-            <button class="tecla" onclick="teclar('5')">5</button>
-            <button class="tecla" onclick="teclar('6')">6</button>
-            <button class="tecla" onclick="teclar('7')">7</button>
-            <button class="tecla" onclick="teclar('8')">8</button>
-            <button class="tecla" onclick="teclar('9')">9</button>
-            <button class="empty"></button>
-            <button class="tecla" onclick="teclar('0')">0</button>
-            <button class="empty"></button>
-            <button class="teclacorrige" onclick="corrigir()">CORRIGE</button>
-            <input type="submit" class="teclabranco" value="BRANCO"></input>
-            <input type="submit" class="teclaconfirma" value="CONFIRMA"></input>
-        </div>
+    <div class="gridcontainer-teclas">
+        <button class="tecla" onclick="teclar('1')">1</button>
+        <button class="tecla" onclick="teclar('2')">2</button>
+        <button class="tecla" onclick="teclar('3')">3</button>
+        <button class="tecla" onclick="teclar('4')">4</button>
+        <button class="tecla" onclick="teclar('5')">5</button>
+        <button class="tecla" onclick="teclar('6')">6</button>
+        <button class="tecla" onclick="teclar('7')">7</button>
+        <button class="tecla" onclick="teclar('8')">8</button>
+        <button class="tecla" onclick="teclar('9')">9</button>
+        <button class="empty"></button>
+        <button class="tecla" onclick="teclar('0')">0</button>
+        <button class="empty"></button>
+        <button class="teclacorrige" onclick="corrigir()">CORRIGE</button>
+        <input type="submit" class="teclabranco" value="BRANCO"></input>
+        <input type="submit" class="teclaconfirma" onclick="confirmar()" value="CONFIRMA"></input>
+    </div>
 
     <!-- </form> -->
 
