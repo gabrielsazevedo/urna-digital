@@ -101,8 +101,9 @@ body {
 .gridcontainer-info {
 
     position: absolute;
-    top: 300px;
+    top: 280px;
     left: 150px;
+    visibility: hidden;
     background-image: linear-gradient(to right, white, black);
     width: 40%;
     height: 25%;
@@ -111,11 +112,16 @@ body {
 #fotocandidato {
 
     width: 220px;
-    
+
 }
 
 #stringscandidato {
 
-    
-
+position: relative;
+left: 250px;
+bottom: 120px;
+font-size: xx-large;
+width: 50%;
+color: white;
+text-shadow: black 1px 1px 1px;
 }
