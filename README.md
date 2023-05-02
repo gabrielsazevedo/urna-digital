@@ -1,5 +1,4 @@
 # Urrna Digital
-UCSAL 2023.1 Programação Web avaliação unidade 1
 
 Manual de utilização da urna digital para votação melhor cantor(a) da Bahia
 
