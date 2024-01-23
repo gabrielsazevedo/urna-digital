@@ -6,17 +6,19 @@ body {
     margin: 0;
     background-image: linear-gradient(to right, azure, rgb(200, 200, 252));
     box-sizing: border-box;
+    display: flex;
+    /* align-items: center; */
 }
+
 
 .gridcontainer-teclas {
 
     background-color: white;
     display: flex;
     flex-flow: row wrap;
-    /* margin: auto; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* align-content: center; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
     padding: 0.5em;
     height: 50%;
     width: 50vh;
@@ -92,11 +94,17 @@ body {
 
 .campovisor {
 
+    position: absolute;
     background-color: whitesmoke;
-    height: 65px;
+    left: 523px;
+    top: 97px;
+    height: 50px;
+    width: 53vh;
     text-align: center;
     font-size: x-large;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     font-family: 'Kanit', sans-serif;
+    border-radius: 5px;
+
 
 }
